@@ -1,0 +1,130 @@
+/* .step__bar__container {
+    display: flex;
+    align-items: center;
+  } */
+
+.step__bar {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+
+.step__bar .step {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 50%;
+    box-sizing: border-box;
+    opacity: 0.7;
+}
+
+
+.step__bar .step.active {
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border: 3px solid #8CBC43;
+    border-radius: 50%;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+.step__bar .step:hover {
+    background: rgba(217, 217, 217, 0.5);
+}
+
+.step__icon img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+
+
+.step__content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.step__content h2 {
+    margin-bottom: 10px;
+}
+
+.color__icon {
+    color: #8CBC43;
+}
+
+
+.step__desc__content {
+    width: 70%;
+    height: auto;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.step__digination__content {
+    width: 30%;
+    height: auto;
+}
+
+.step__title {
+    color: #262626;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Open Sans'!important;
+    font-style: normal;
+    margin-bottom: 0.1rem!important;
+}
+
+.step__digination {
+    color: #8CBC43;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Open Sans'!important;
+    font-style: normal;
+}
+
+.step__desc {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #262626;
+    font-family: 'Open Sans' !important;
+    font-style: italic;
+}
+
+.about__us__area {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+@media only screen and (max-width:768px) {
+    .step__desc__content {
+        width: 100%;
+        height: auto;
+    }
+
+    .step__digination__content {
+        width: 40%;
+        height: auto;
+    }
+
+    .about__us__area {
+        width: 100%;
+    }
+}

@@ -1,0 +1,61 @@
+.reviews__pagination .pagination li {
+    padding: 0px 6px;
+    border-radius: 50% !important;
+}
+
+
+.reviews__pagination .page-link {
+    color: #87888a;;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid #14A800;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+}
+
+.reviews__pagination .page-link:hover {
+    color: #838383 !important;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid #14A800;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+}
+
+.reviews__pagination .active>.page-link,
+.page-link.active {
+    color: #fff !important;
+    background-color: #14A800 !important;
+    border-color: #14A800 !important;
+    border-radius: 50% !important;
+}
+
+.reviews__pagination .page-link:focus {
+    color: #14A800 !important;
+    background-color: #14A800 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 50% !important;
+}
+
+.reviews__pagination .page-link:hover {
+    color: #fff;
+    background-color: #14A800;
+    border-color: #14A800;
+    border-radius: 50% !important;
+}
+
+.btn__pagination {
+    border: 2px solid #fff !important;
+}
+.btn__pagination:hover {
+    border: 2px solid #fff !important;
+}
+.txt__pagination__active .page-link{
+    color: #14A800 !important;
+}
+.txt__pagination__active .page-link:hover{
+    color: #14A800 !important;
+}

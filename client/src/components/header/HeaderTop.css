@@ -1,0 +1,195 @@
+.ht__bg__color {
+  background-color: black;
+}
+
+.active1 {
+  height: 5rem;
+  width: 100%;
+  /* position: fixed; */
+  top: 0px;
+  transition: 0.3s linear;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  /* background-color: #ad5252; */
+  /* border-bottom: 1px solid rgba(0, 0, 0, .1); */
+  z-index: 40;
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
+}
+
+.active1 .hidden {
+  height: 4rem;
+  width: 100%;
+  z-index: 40;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
+  position: fixed;
+  top: -80px;
+  /* transition: 0.3s linear; */
+
+}
+
+
+.ht__email ul {
+  margin-bottom: 0.0rem !important;
+}
+
+.ht-social a {
+  background: #515151;
+  color: #fff;
+  height: 23px;
+  width: 23px;
+  line-height: 19px;
+  font-size: 11px;
+  margin-left: 12px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.ht-social .facebook:hover {
+  background: #4267B2;
+  color: #fff;
+}
+
+.ht-social .twitter:hover {
+  background: #1DA1F2;
+  color: #fff;
+}
+.ht-social .skype:hover {
+  background: #fff;
+  color: #00aff0;
+}
+
+.ht-social .linkedin:hover {
+  background: #0072b1;
+  color: #fff;
+}
+
+.ht-social .whatsapp:hover {
+  background: #25D366;
+  color: #fff;
+}
+
+.ht-social .instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: #fff;
+}
+
+.ht-social .youtube:hover {
+  background: #E60023;
+  color: #fff;
+}
+
+.ht-social .pinterest:hover {
+  background: #E60023;
+  color: #fff;
+}
+
+.contact__top ul {
+  display: flex;
+  text-align: start;
+}
+
+.contact__top ul li {
+  line-height: 235%;
+  padding-left: 15px;
+  color: #fff;
+}
+
+.ht__txt__email {
+  font-size: 11px;
+  font-weight: 400;
+  font-family: 'Montserrat' !important;
+  color: #fff;
+  margin-bottom: 0rem !important;
+  padding: 0px 6px;
+}
+
+.ht__list__ul__email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ht__list__email {
+  display: flex;
+  padding-right: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ht__txt {
+  font-size: 10px;
+  font-weight: 400;
+  font-family: 'Montserrat' !important;
+  color: #fff;
+  margin-bottom: 0.2rem !important;
+  padding: 0px 6px;
+}
+
+
+.ht__list__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ht__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (max-width: 768px) {
+  /* .header__top {
+    margin-bottom: 70px !important;
+  } */
+
+  .active1 {
+    height: 300px;
+  }
+
+  .ht__top__txt {
+    line-height: 120%;
+    font-size: 12px;
+  }
+
+  .ht__input__search,
+  .ht__btn__search {
+    font-size: 12px;
+  }
+
+  .software__img img {
+    width: 100%;
+    height: 60px;
+    padding: 0px 2px;
+  }
+
+  .ht__list__ul {
+    display: block;
+  }
+
+  .ht__list {
+    display: flex;
+    margin-top: 6px;
+    padding-right: 0px;
+    align-items: center;
+  }
+
+  .ht-social a {
+    margin-left: 0px;
+    margin-right: 12px;
+  }
+  .ht__list__ul__email {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .ht__list__ul__email .ht__list__email {
+    margin-bottom: 8px;
+  }
+}
